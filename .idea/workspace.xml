@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_detection/Object_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_detection/Object_detection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +97,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585027934171</updated>
     </task>
+    <task id="LOCAL-00001" summary="object detection">
+      <created>1585047678387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585047678387</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -123,6 +129,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="object detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="object detection" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Object_detection/Object_detection.py">
