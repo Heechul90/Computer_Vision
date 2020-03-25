@@ -102,7 +102,7 @@ print(toy_ssd_model(5, 2))
 
 def toy_ssd_forward(x, body, downsamples, class_preds, box_preds, sizes, ratios):
     # extract feature with the body network
-    x = body()
+    x = body(x)
 
     # for each scale, add anchors, box and class predictions
     # then compute the input to next scale
@@ -156,7 +156,7 @@ class ToySSD(gluon.Block):
 net = ToySSD(2)
 net.initialize()
 x = nd.zeros((1, 3, 256, 256))
-default_anchors, class_predictions, box_predictions = net.(x)
+default_anchors, class_predictions, box_predictions = net(x)
 print('Outputs:', 'anchors', default_anchors.shape, 'class prediction', class_predictions.shape, 'box prediction', box_predictions.shape)
 
 
@@ -285,7 +285,7 @@ cls_metric = mx.metric.Accuracy()
 box_metric = mx.metric.MAE()   # measure absolute differece between prediction and target
 
 ### Set context for training
-# ctx = mx.gpu()   # it may takes too long to train using CPU
+ctx = mx.gpu()   # it may takes too long to train using CPU
 ctx = mx.cpu()
 try:
     _ = nd.zeros(1, ctx=ctx)
@@ -306,7 +306,7 @@ if from_scratch:
     start_epoch = 0
 else:
     start_epoch = 148
-    pretrained = 'ssd_pretrained.params'
+    pretrained = 'Object_detection/ssd_pretrained.params'
     sha1 = 'fbb7d872d76355fff1790d864c2238decdb452bc'
     url = 'https://apache-mxnet.s3-accelerate.amazonaws.com/gluon/models/ssd_pikachu-fbb7d872.params'
     if not osp.exists(pretrained) or not verified(pretrained, sha1):
@@ -341,7 +341,7 @@ for epoch in range(start_epoch, epochs):
             loss.backward()
 
         # apply
-        trainer.strp(batch_size)
+        trainer.step(batch_size)
 
         # update metrics
         cls_metric.update([cls_target], [nd.transpose(class_predictions, (0, 2, 1))])
@@ -358,7 +358,7 @@ for epoch in range(start_epoch, epochs):
     print('[Epoch %d] time cost: %f'%(epoch, time.time()-tic))
 
 # we can save the trained parameters to disk
-net.save_params('ssd_%d.params' % epochs)
+net.save_params('Object_detection/ssd_%d.params' % epochs)
 
 import numpy as np
 import cv2
@@ -380,8 +380,8 @@ def prepocess(image):
 
     return image
 
-image = cv2.imread('img/pikachu.jpg')
-x = preprocess(image)
+image = cv2.imread('img/pikachu02.jpg')
+x = prepocess(image)
 print('x', x.shape)
 
 # if pre-trained model is provided, we can load it
@@ -404,7 +404,7 @@ def display(img, out, thresh=0.5):
     mpl.rcParams['figure.figsize'] = (10, 10)
     pens = dict()
     plt.clf()
-    plt.imshow()img)
+    plt.imshow(img)
     for det in out:
         cid = int(det[0])
         if cid < 0:
