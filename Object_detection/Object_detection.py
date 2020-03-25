@@ -380,7 +380,7 @@ def prepocess(image):
 
     return image
 
-image = cv2.imread('img/pikachu02.jpg')
+image = cv2.imread('img/pikachu03.jpg')
 x = prepocess(image)
 print('x', x.shape)
 
