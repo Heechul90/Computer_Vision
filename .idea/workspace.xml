@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_detection/Object_detection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_detection/error.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_detection/ssd_150.params" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_detection/ssd_pretrained.params" beforeDir="false" />
-    </list>
+    <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -153,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585125981494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="object detection">
+      <created>1586162563480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586162563481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -204,7 +203,7 @@
     <entry file="file://$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
