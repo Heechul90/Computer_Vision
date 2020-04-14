@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection2.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Latte-vs-Moca/Inference01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Latte-vs-Moca/classification01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,80 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/01. fcn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-              <folding>
-                <element signature="e#287#305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/02. psp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#270#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/03. deeplab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="59" selection-start-line="59" selection-end-line="61" selection-end-column="10" />
-              <folding>
-                <element signature="e#276#294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/04. train_fcn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
-              <folding>
-                <element signature="e#1375#1393#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/05. train_psp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
-              <folding>
-                <element signature="e#1091#1109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/06. voc_sota.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/07. icnet.py">
+        <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/classification01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="64" column="10" lean-forward="true" selection-start-line="57" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="287">
+              <caret line="151" column="27" lean-forward="true" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
+              <folding>
+                <element signature="e#27#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/Inference01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,14 +87,15 @@
         <option value="$PROJECT_DIR$/Semantic_Segmentation/02. psp.py" />
         <option value="$PROJECT_DIR$/Semantic_Segmentation/03. deeplab.py" />
         <option value="$PROJECT_DIR$/Semantic_Segmentation/07. icnet.py" />
+        <option value="$PROJECT_DIR$/Latte-vs-Moca/Inference01.py" />
+        <option value="$PROJECT_DIR$/Latte-vs-Moca/classification01.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="618" />
+    <option name="width" value="1309" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,11 +111,15 @@
               <item name="Computer_Vision" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer_Vision" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Computer_Vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer_Vision" type="462c0819:PsiDirectoryNode" />
+              <item name="Latte-vs-Moca" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,14 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586750713418</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="object detection">
+      <created>1586768302049</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586768302049</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <frame x="618" y="0" width="1309" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17389007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1715415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,7 +238,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.50336325" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.42808607" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,23 +286,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3201">
-          <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-          <folding>
-            <element signature="e#79#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection2.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_tensorflow/Object_Detection1.py" />
     <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/Object_detection.py" />
     <entry file="file://$PROJECT_DIR$/Classification/dive_deep_cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -366,104 +311,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/01. ssd_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#228#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/02. faster_rcnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#217#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/03. yolo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#230#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/04. train_ssd_voc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/05. train_ssd_advanced.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/06. train_faster_rcnn_voc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/07. train_yolo_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="60" column="45" lean-forward="true" selection-start-line="44" selection-end-line="60" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/08. finetune_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
-          <folding>
-            <element signature="e#776#787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/09. webcam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#722#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/10. skip_fintune.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#598#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/11. center_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="66" lean-forward="true" selection-start-line="62" selection-end-line="66" />
-          <folding>
-            <element signature="e#246#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/01. ssd_model.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/02. faster_rcnn.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/03. yolo.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/04. train_ssd_voc.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/05. train_ssd_advanced.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/06. train_faster_rcnn_voc.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/07. train_yolo_v3.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/08. finetune_detection.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/09. webcam.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/10. skip_fintune.py" />
+    <entry file="file://$PROJECT_DIR$/Object_detection_mxnet/11. center_net.py" />
     <entry file="file://$USER_HOME$/Downloads/demo_fcn.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -486,7 +344,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/01. fcn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
+        <state relative-caret-position="1425">
           <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding>
             <element signature="e#287#305#0" expanded="true" />
@@ -496,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/02. psp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="1475">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#270#288#0" expanded="true" />
           </folding>
@@ -506,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/03. deeplab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="1400">
           <caret line="59" selection-start-line="59" selection-end-line="61" selection-end-column="10" />
           <folding>
             <element signature="e#276#294#0" expanded="true" />
@@ -516,7 +374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/04. train_fcn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="3250">
           <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
           <folding>
             <element signature="e#1375#1393#0" expanded="true" />
@@ -526,7 +384,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/05. train_psp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
+        <state relative-caret-position="2475">
           <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
           <folding>
             <element signature="e#1091#1109#0" expanded="true" />
@@ -536,15 +394,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/06. voc_sota.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="2825">
           <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Semantic_Segmentation/07. icnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="57" selection-end-line="64" selection-end-column="10" />
+        <state relative-caret-position="309">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/Inference01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/classification01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="151" column="27" lean-forward="true" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
+          <folding>
+            <element signature="e#27#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
