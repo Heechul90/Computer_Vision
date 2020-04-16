@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Latte-vs-Moca/Inference01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Latte-vs-Moca/classification01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -218,12 +216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586768302049</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="object detection">
+      <created>1586877089117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586877089117</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="618" y="0" width="1309" height="1041" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1715415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
