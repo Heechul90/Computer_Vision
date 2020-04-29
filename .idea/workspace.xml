@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Latte-vs-Moca-02/classification-02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-01/Inference01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-01/Inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-01/classification01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-01/classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-02/Inference01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-02/Inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-02/classification01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-02/classification-01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-02/classification01.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-02/classification-01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
-              <folding>
-                <element signature="e#27#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="385">
+              <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-02/classification-02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -76,10 +87,12 @@
         <option value="$PROJECT_DIR$/Latte-vs-Moca/Inference01.py" />
         <option value="$PROJECT_DIR$/Latte-vs-Moca/classification01.py" />
         <option value="$PROJECT_DIR$/Latte-vs-Moca-02/classification01.py" />
+        <option value="$PROJECT_DIR$/Latte-vs-Moca-01/classification.py" />
+        <option value="$PROJECT_DIR$/Latte-vs-Moca-02/classification.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="866" />
     <option name="width" value="1058" />
     <option name="height" value="1041" />
@@ -90,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,21 +113,28 @@
             <path>
               <item name="Computer_Vision" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer_Vision" type="462c0819:PsiDirectoryNode" />
+              <item name="Latte-vs-Moca-01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer_Vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer_Vision" type="462c0819:PsiDirectoryNode" />
               <item name="Latte-vs-Moca-02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Latte-vs-Moca-02" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Heechul\Computer_Vision\Latte-vs-Moca-02" />
       <recent name="D:\HeechulFromGithub\Computer_Vision\Object_detection_tensorflow" />
     </key>
   </component>
@@ -223,10 +242,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="866" y="0" width="1058" height="1041" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24852072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13319239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,7 +258,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3657984" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.36210763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,17 +287,6 @@
     <MESSAGE value="object detection" />
     <MESSAGE value="classification" />
     <option name="LAST_COMMIT_MESSAGE" value="classification" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Latte-vs-Moca-02/classification01.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Object_detection/Object_detection.py" />
@@ -417,33 +425,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/classification01.py">
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/classification01.py" />
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/Inference01.py" />
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-01/classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-          <folding>
-            <element signature="e#27#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="385">
+          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca/Inference01.py">
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-02/classification-01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="385">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-02/classification01.py">
+    <entry file="file://$PROJECT_DIR$/Latte-vs-Moca-02/classification-02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
-          <folding>
-            <element signature="e#27#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>

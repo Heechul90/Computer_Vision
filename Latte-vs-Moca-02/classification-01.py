@@ -1,4 +1,4 @@
-### 라떼와 모카 분류
+### 라떼와 모카 분류 - 02
 
 # 함수, 모듈 준비
 import numpy as np
@@ -23,7 +23,7 @@ from mxnet.gluon.data.vision import datasets, transforms
 
 
 # 변수
-data_path = 'Latte-vs-Moca/dataset'
+data_path = 'Latte-vs-Moca-02/dataset'
 image_resize = 96
 ctx = mx.cpu()
 
@@ -69,6 +69,16 @@ from mxnet.gluon.model_zoo import vision
 ctx = mx.cpu()
 net = vision.resnet18_v1(classes=1, pretrained=False)
 
+# net = nn.Sequential()
+# with net.name_scope():
+#     net.add(
+#         nn.Conv2D(channels=20, kernel_size=5, activation='relu'),
+#         nn.MaxPool2D(pool_size=2, strides=2),
+#         nn.Conv2D(channels=50, kernel_size=3, activation='relu'),
+#         nn.MaxPool2D(pool_size=2, strides=2), nn.Flatten(),
+#         nn.Dense(128, activation="relu"),
+#         nn.Dense(1))
+
 
 
 
@@ -80,13 +90,23 @@ def evaluate_accuracy(data_iterator, net, ctx):
         acc.update(preds=predictions, labels=label.as_in_context(ctx))
     return acc.get()[1]
 
+# def evaluate_accuracy(data_iterator, net):
+#     acc = mx.metric.Accuracy()
+#     for d, l in data_iterator:
+#         data = d.as_in_context(ctx)
+#         label = l.as_in_context(ctx)
+#         output = net(data)
+#         predictions = nd.argmax(output, axis = 1)
+#         acc.update(preds = predictions, labels = label)
+#     return acc.get()
+
 
 ################## parameters
 mx.random.seed(1)
 epochs = 10
-lr = 0.1
+lr = 0.01
 num_workers = 0
-softmax_cross_entropy = gluon.loss.SigmoidBinaryCrossEntropyLoss()
+loss_function = gluon.loss.SigmoidBinaryCrossEntropyLoss()
 metric = mx.metric.Accuracy()
 
 # Initialize parameters randomly
@@ -108,13 +128,13 @@ for e in range(epochs):
         nd.waitall()
         with autograd.record():
             output = net(data)
-            loss = softmax_cross_entropy(output, label)
+            loss = loss_function(output, label)
         loss.backward()
         trainer.step(data.shape[0])
         metric.update([label], [output])
-        if i % 10 == 0 and i > 0:
-            name, acc = metric.get()
-            print('[Epoch %d Batch %d] Training: %s=%f' % (e, i, name, acc))
+        # if i % 10 == 0 and i > 0:
+        #     name, acc = metric.get()
+        #     print('[Epoch %d Batch %d] Training: %s=%f' % (e, i, name, acc))
 
     train_mse = evaluate_accuracy(train_iter, net, ctx)
     test_mse = evaluate_accuracy(test_iter, net, ctx)
@@ -123,6 +143,31 @@ for e in range(epochs):
 
     name, acc = metric.get()
     print('[Epoch %d] Training: %s=%f' % (e, name, acc))
+
+
+# epochs = 10
+# smoothing_constant = 0.01
+#
+# for e in range(epochs):
+#     for i, (d, l) in enumerate(train_iter):
+#         data = d.as_in_context(ctx)
+#         label = l.as_in_context(ctx)
+#         with autograd.record():
+#             output = net(data)
+#             loss = loss_function(output, label)
+#         loss.backward()
+#         trainer.step(data.shape[0])
+#
+#         ############
+#         # keep a moving average of the losses
+#         ############
+#
+#         curr_loss = nd.mean(loss).asscalar()
+#         moving_loss = (curr_loss if ((i == 0) and (e == 0)) else (1 - smoothing_constant) * moving_loss + (smoothing_constant) * curr_loss)
+#
+#     test_accuracy = evaluate_accuracy(test_iter, net)
+#     train_accuracy = evaluate_accuracy(train_iter, net)
+#     print("Epoch %s. Loss: %s, Train_acc %s, Test_acc %s" % (e, moving_loss, train_accuracy, test_accuracy))
 
 file_name = 'net.params'
 net.save_parameters(file_name)
