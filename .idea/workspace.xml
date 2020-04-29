@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2162aff-9b86-4936-9deb-fcb49b2e2595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Latte-vs-Moca-02/classification-02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-01/Inference01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-01/Inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-01/classification01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-01/classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-02/Inference01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-02/Inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Latte-vs-Moca-02/classification01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Latte-vs-Moca-02/classification-01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,12 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588045322533</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="classification">
+      <created>1588170074042</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588170074042</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13319239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
